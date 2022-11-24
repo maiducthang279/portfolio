@@ -37,7 +37,10 @@ function App() {
             </Text>
             <br />
             <Text>
-              <b>Email:</b> maiducthang279@gmail.com
+              <b>Email:</b>{' '}
+              <Link href="mailto:maiducthang279@gmail.com">
+                maiducthang279@gmail.com
+              </Link>
             </Text>
             <br />
             <Text>
@@ -46,7 +49,10 @@ function App() {
             </Text>
             <br />
             <Text>
-              <b>Website:</b> www.linkedin.com/in/thangmd
+              <b>Website:</b>{' '}
+              <Link href="www.linkedin.com/in/thangmd" target={'_blank'}>
+                www.linkedin.com/in/thangmd
+              </Link>
             </Text>
           </Col>
           <Col span={24}>
