@@ -1,9 +1,11 @@
-import { Avatar, Col, Divider, Row, Typography } from 'antd';
+import { Avatar, Card, Col, Divider, Row, Typography } from 'antd';
 import 'antd/dist/reset.css';
 import './App.css';
 import avatar from './assets/avatar.jpeg';
+import dynamicGridView from './assets/dynamic-grid-view.png';
+import slashTextEditor from './assets/slash-text-editor.png';
 
-const { Text, Title, Paragraph } = Typography;
+const { Text, Title, Paragraph, Link } = Typography;
 
 function App() {
   return (
@@ -62,6 +64,98 @@ function App() {
             <Divider orientation="left">
               <Title level={3}>PERSONAL EXPERIENCE</Title>
             </Divider>
+            <Row gutter={[16, 16]}>
+              <Col xs={24} sm={12} lg={12}>
+                <Card
+                  className="personal_experience_card"
+                  hoverable
+                  cover={
+                    <img
+                      alt="dynamic grid layout example"
+                      src={dynamicGridView}
+                    />
+                  }
+                  bordered={false}
+                >
+                  <Title level={4}>Dynamic grid layout</Title>
+                  <Paragraph>
+                    A dynamic grid layout, inspiration from Pinterest
+                  </Paragraph>
+                  <Paragraph ellipsis>
+                    <b>Npm:</b>{' '}
+                    <Link
+                      href="https://www.npmjs.com/package/dynamic-grid-layout"
+                      target={'_blank'}
+                    >
+                      https://www.npmjs.com/package/dynamic-grid-layout
+                    </Link>
+                  </Paragraph>
+                  <Paragraph ellipsis>
+                    <b>Github:</b>{' '}
+                    <Link
+                      href="https://github.com/maiducthang279/dynamic-grid-layout"
+                      target={'_blank'}
+                    >
+                      https://github.com/maiducthang279/dynamic-grid-layout
+                    </Link>
+                  </Paragraph>
+                  <Paragraph ellipsis>
+                    <b>Example:</b>{' '}
+                    <Link
+                      href="https://maiducthang279.github.io/dynamic-grid-layout"
+                      target={'_blank'}
+                    >
+                      https://maiducthang279.github.io/dynamic-grid-layout
+                    </Link>
+                  </Paragraph>
+                </Card>
+              </Col>
+              <Col xs={24} sm={12} lg={12}>
+                <Card
+                  className="personal_experience_card"
+                  hoverable
+                  cover={
+                    <img
+                      alt="slash text editor example"
+                      src={slashTextEditor}
+                    />
+                  }
+                  bordered={false}
+                >
+                  <Title level={4}>Slash text editor</Title>
+                  <Paragraph>
+                    A rich text editor base on HTML contenteditable
+                  </Paragraph>
+                  <Paragraph ellipsis>
+                    <b>Npm:</b>{' '}
+                    <Link
+                      href="https://www.npmjs.com/package/slash-rich-text-editor"
+                      target={'_blank'}
+                    >
+                      https://www.npmjs.com/package/slash-rich-text-editor
+                    </Link>
+                  </Paragraph>
+                  <Paragraph ellipsis>
+                    <b>Github:</b>{' '}
+                    <Link
+                      href="https://github.com/maiducthang279/slash-rich-text-editor"
+                      target={'_blank'}
+                    >
+                      https://github.com/maiducthang279/slash-rich-text-editor
+                    </Link>
+                  </Paragraph>
+                  <Paragraph ellipsis>
+                    <b>Example:</b>{' '}
+                    <Link
+                      href="https://maiducthang279.github.io/slash-rich-text-editor"
+                      target={'_blank'}
+                    >
+                      https://maiducthang279.github.io/slash-rich-text-editor/
+                    </Link>
+                  </Paragraph>
+                </Card>
+              </Col>
+            </Row>
           </Col>
           <Col span={24}>
             <Divider orientation="left">

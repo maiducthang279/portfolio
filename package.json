@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://maiducthang.github.io/portfolio",
+  "homepage": "https://maiducthang279.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@craco/craco": "^7.0.0",
