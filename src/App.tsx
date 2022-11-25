@@ -239,7 +239,7 @@ function App() {
               </Col>
               <Col xs={24} sm={24} lg={18} xl={18} xxl={18}>
                 <Title level={4}>FPT University</Title>
-                <Paragraph>Major: Sofware Engineering</Paragraph>
+                <Paragraph>Major: Software Engineering</Paragraph>
                 <Paragraph>GPA: 7.9/10</Paragraph>
                 <Paragraph>
                   Having experience in ReactJS, Angular, Spring Boot,
